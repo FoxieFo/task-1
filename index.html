@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OKEA</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo"><a href="#">OKEA</a></div>
+            <div class="burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="header__nav" id="nav">
+                <a class="header__nav-item" href="#">COLLECTIONS</a>
+                <a class="header__nav-item" href="#">ROOM IDEAS</a>
+                <a class="header__nav-item" href="#">ABOUT OKEA</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="hero__wrapper">
+                <div class="hero__info">
+                    <h1 class="hero__heading">Smart. Stylish.<br>Ready for Your Home.</h1>
+                    <p class="hero__subtitle">Scandinavian design for every room</p>
+                    <ul class="hero__features">
+                        <li class="hero__features-item">
+                            <img class="hero__features-icon" src="/img/icons/tick.svg" alt="tick icon" />
+                            Save up to <strong>$10 000</strong> with seasonal combos
+                        </li>
+                        <li class="hero__features-item">
+                            <img class="hero__features-icon" src="/img/icons/tick.svg" alt="tick icon" />
+                            <strong>30%</strong> off on modular sofas this week
+                        </li>
+                        <li class="hero__features-item">
+                            <img class="hero__features-icon" src="/img/icons/tick.svg" alt="tick icon" />
+                            <strong>17%</strong> student discount on desks and chairs
+                        </li>
+                    </ul>
+                    <button class="hero__button">SHOP</button>
+                </div>
+                <div class="hero__image">
+                    <img src="./img/intro-img.png" alt="furniture" />
+                </div>
+            </div>
+        </section>
+
+        <section class="benefits">
+            <div class="benefits__wrapper">
+                <div class="benefits__img">
+                    <img src="/img/benefits-img-1.png" alt="furniture">
+                </div>
+                <div class="benefits__container">
+                    <ul class="benefits__list">
+                        <li class="benefits__list-item">
+                            <img class="benefits__list-icon" src="/img/icons/li-item.svg" alt="bullet point" />
+                            Thoughtfully designed for urban living—small space, big comfort
+                        </li>
+                        <li class="benefits__list-item">
+                            <img class="benefits__list-icon" src="/img/icons/li-item.svg" alt="bullet point" />
+                            Sustainably sourced wood and recyclable packaging in every product
+                        </li>
+                        <li class="benefits__list-item">
+                            <img class="benefits__list-icon" src="/img/icons/li-item.svg" alt="bullet point" />
+                            Delivery & assembly included with every purchase over $500
+                        </li>
+                        <li class="benefits__list-item">
+                            <img class="benefits__list-icon" src="/img/icons/li-item.svg" alt="bullet point" />
+                            Designed in Sweden. Loved worldwide.
+                        </li>
+                    </ul>
+                    <button class="benefits__button">EXPLORE BENEFITS</button>
+                </div>
+                <div class="benefits__img">
+                    <img src="/img/benefits-img-2.png" alt="furniture" />
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <div class="contact-form__container">
+                <div class="contact-form__content">
+                    <h2 class="contact-form__heading">
+                        Join us<br>Get exclusive discounts
+                    </h2>
+                    <form class="contact-form__form" action="#" method="POST">
+                        <input type="text" name="name" placeholder="Your full name" required />
+                        <input type="email" name="email" placeholder="Your email address" required />
+                        <label class="contact-form__checkbox">
+                            <input type="checkbox" name="privacy" required />
+                            <span class="contact-form__checkbox-link">I agree to the <a href="#">Privacy
+                                    Policy</a></span>
+                        </label>
+                        <button type="submit">SUBSCRIBE NOW</button>
+                    </form>
+                </div>
+                <div class="contact-form__image">
+                    <img src="/img/form-img.png" alt="Room" />
+                </div>
+                <div class="contact-form__image_absolute">
+                    <img src="/img/woman.png" alt="Business woman">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__top">
+            <nav class="footer__nav">
+                <a href="#">COLLECTIONS</a>
+                <a href="#">DESIGN BLOG</a>
+                <a href="#">SHOWROOMS</a>
+            </nav>
+        </div>
+
+        <div class="footer__bottom">
+            <div class="footer__left">
+                <a href="#" class="footer__logo">OKEA</a>
+                <p class="footer__copyright">© 2024 OKEA. Scandinavian design made simple.</p>
+            </div>
+
+            <div class="footer__center">
+                <div class="footer__socials">
+                    <a href="#"><img src="/img/icons/socials/instagram.svg" alt="Instagram" /></a>
+                    <a href="#"><img src="/img/icons/socials/tiktok.svg" alt="TikTok" /></a>
+                    <a href="#"><img src="/img/icons/socials/linkedin.svg" alt="LinkedIn" /></a>
+                    <a href="#"><img src="/img/icons/socials/facebook.svg" alt="Facebook" /></a>
+                    <a href="#"><img src="/img/icons/socials/telegram.svg" alt="Telegram" /></a>
+                    <a href="#"><img src="/img/icons/socials/youtube.svg" alt="YouTube" /></a>
+                </div>
+                <a href="#" class="footer__privacy">Privacy Policy</a>
+            </div>
+
+            <div class="footer__right">
+                <button class="footer__button">SHOP NOW</button>
+                <a href="#" class="footer__terms">Terms of Use</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
